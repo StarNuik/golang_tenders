@@ -1,5 +1,5 @@
 ## Тестирование
-```
+```bash
 git clone git@github.com:StarNuik/golang_tenders.git
 cd golang_tenders
 ./test/compose.sh build .
@@ -8,7 +8,7 @@ go test ./... (-v -count 1)
 ```
 
 ## Запуск (пример)
-```
+```yaml
 service-tenders:
   build: .
   restart: unless-stopped
