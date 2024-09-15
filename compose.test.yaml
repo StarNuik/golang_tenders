@@ -33,7 +33,7 @@ services:
     environment:
       PGM_MIGRATIONS: /migrations
       PGM_DATABASE: ${POSTGRES_CONN}
-  service-match:
+  service-tenders:
     build: .
     restart: unless-stopped
     # env_file: ./.env
