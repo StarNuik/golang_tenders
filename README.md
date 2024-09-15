@@ -7,7 +7,7 @@ cd golang_tenders
 go test ./... (-v -count 1)
 ```
 
-## Запуск (пример)
+## Запуск (пример docker compose сервиса)
 ```yaml
 service-tenders:
   build: .
